@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:id="@+id/goalSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/radioGoal1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:paddingRight="5dp"
+            android:text="@string/goal1"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/radioGoal2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:text="@string/goal2"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/radioGoal3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:text="@string/goal3"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/radioGoal4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:text="@string/goal4"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/radioGoal5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:checked="false"
+            android:text="@string/goal5"
+            android:textSize="17sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/goalTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/Next"
+        android:onClick="onClickNext" />
+
+    <TextView
+        android:id="@+id/extraMaxTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignTop="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/extraMinTest"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

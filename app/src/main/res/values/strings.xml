@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FYPDiary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="BMI_Title">BMI calculation</string>
+    <string name="S1_Weight">Weight</string>
+    <string name="S1_Height">Height</string>
+    <string name="Next">Next</string>
+    <string name="yourBMI">Your BMI is</string>
+    <string name="bmiShow">21%</string>
+    <string name="blueCircle">Blue Circle</string>
+    <string name="S3_Title">How active are you?</string>
+    <string name="fatTable">table</string>
+    <string name="option1">Spend most of the day sitting(e.g. bank teller, desk job)</string>
+    <string name="option2">Spend a good part of the day on your feet (e.g. teacher, salesman)</string>
+    <string name="option3">Spend a good part of the day doing some physical activity(e.g. waitress, mailman)</string>
+    <string name="option4">Spend a most of the day doing heavy physical activity(e.g. bike messenger, carpenter) </string>
+    <string name="option5">Spend  a lot of time in the gym doing extreme weight lifting 6+ times a week</string>
+    <string name="S3Title1">Sedentary</string>
+    <string name="S3Title2">Lightly active</string>
+    <string name="S3Title3">Active</string>
+    <string name="S3Title4">Very active</string>
+    <string name="S3Title5">Gym addicted</string>
+    <string name="goalTitle">Your Goal</string>
+    <string name="goal1">Fast weight lost</string>
+    <string name="goal2">Moderate weight lost</string>
+    <string name="goal3">Stay the same</string>
+    <string name="goal4">Moderate weight gain</string>
+    <string name="goal5">Fast weight gain</string>
+    <string name="S5Title">Your daily intake</string>
+    <string name="carboTxt">Carbohydrates</string>
+    <string name="fatsTxt">Fats</string>
+    <string name="proteinsTxt">Proteins</string>
+    <string name="minimumCalories">Minimum calories</string>
+    <string name="tableRow1C2">Goal</string>
+    <string name="tableRow1C3">Comsumed</string>
+    <string name="tableRow1C4">Remaining</string>
+    <string name="minimumCaloriesText">Minimum</string>
+    <string name="something">Default</string>
+    <string name="Multiline_Text_By_N"> Line number 1 \nLine number 2 </string>
+    <string name="AddNFITitle">Large Text</string>
+    <string name="AddNFICalories">Calories</string>
+    <string name="AddNFIFat">Fat</string>
+    <string name="AddNFICarbs">Carbohydrates</string>
+    <string name="AddNFIProtein">Protein</string>
+    <string name="AddNFICholesterol">Cholesterol</string>
+    <string name="AddNFISodium">Sodium</string>
+    <string name="AddNFIVitaminA">Vitamin A</string>
+    <string name="AddNFIVitaminC">Vitamin C</string>
+    <string name="AddNFIServingSize">Serving Size</string>
+    <string name="save">Save</string>
+    <string name="facebook_app_id">490151124465990</string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="FoodCat_meat">Meat</string>
+    <string name="FoodCat_drinks">Drinks</string>
+    <string name="FoodCat_fruits">Fruits</string>
+    <string name="FoodCat_veg">Vegetables</string>
+    <string name="FoodCat_snacks">Snacks</string>
+    <string name="FoodCat_myfood">My Food Items</string>
+
+</resources>

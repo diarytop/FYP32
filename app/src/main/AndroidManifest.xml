@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jmosk.fypdiary">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="userLoginScreens.StartLogin"
+            android:label="FYPDiary13">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".setupScreens.SetupS1" />
+        <activity android:name=".setupScreens.SetupS2" />
+        <activity android:name=".setupScreens.SetupS3" />
+        <activity android:name=".setupScreens.SetupS4" />
+        <activity android:name=".setupScreens.SetupS5" />
+        <activity android:name="mainScreen.MainScreen" />
+        <activity android:name="test.testDatabase" />
+        <activity android:name="foodItemsScreens.Fruits"/>
+        <activity android:name="foodItemsScreens.FoodItemDescription"/>
+        <activity android:name="diaryMain.AddNewFoodItem"/>
+        <activity android:name="diaryMain.AddNFIName" />
+        <activity android:name="diaryMain.DiaryMainScreen"/>
+        <activity android:name="mainScreen.MainFoodCategory" />
+        <activity android:name="userLoginScreens.LoginSuccess" />
+        <activity android:name="foodItemsScreens.Veg"/>
+        <activity android:name="foodItemsScreens.Drinks"/>
+        <activity android:name="foodItemsScreens.Meat"/>
+        <activity android:name="foodItemsScreens.Snacks"/>
+        <activity android:name="foodItemsScreens.MyFood"/>
+
+
+    </application>
+
+</manifest>

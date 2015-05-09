@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/userGreating"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noButton"
+        android:text="No"
+        android:onClick="optionNo"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/userGreating"
+        android:layout_toStartOf="@+id/userGreating" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/yesButton"
+        android:layout_alignBottom="@+id/noButton"
+        android:layout_toRightOf="@+id/userGreating"
+        android:layout_toEndOf="@+id/userGreating"
+        android:onClick="optionYes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Have you set up your goal?"
+        android:id="@+id/optionTxt"
+        android:layout_below="@+id/userGreating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="If you returning to this application, click yes. If it is your first time using this - selecct no. Please note: selecting no, when you already have setup your goal, will erase your progress"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/noButton"
+        android:layout_alignStart="@+id/noButton"
+        android:layout_alignRight="@+id/yesButton"
+        android:layout_alignEnd="@+id/yesButton" />
+</RelativeLayout>

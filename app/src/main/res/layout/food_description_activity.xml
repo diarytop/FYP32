@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/AddNFITitle"
+        android:id="@+id/foodKeyDescription"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFICalories"
+        android:id="@+id/Label1"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/foodKeyDescription"
+        android:layout_toLeftOf="@+id/foodKeyDescription"
+        android:layout_toStartOf="@+id/foodKeyDescription"
+        android:layout_marginBottom="17dp"
+        android:enabled="true"
+        android:layout_marginRight="40dp"
+        android:elegantTextHeight="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFIFat"
+        android:id="@+id/Label2"
+        android:layout_below="@+id/Label1"
+        android:layout_alignLeft="@+id/Label1"
+        android:layout_alignStart="@+id/Label1"
+        android:layout_marginBottom="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFIProtein"
+        android:id="@+id/Label3"
+        android:layout_below="@+id/Label2"
+        android:layout_alignLeft="@+id/Label1"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFICarbs"
+        android:id="@+id/Label4"
+        android:layout_below="@+id/Label3"
+        android:layout_alignLeft="@+id/Label1"
+        android:layout_marginBottom="21dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFICholesterol"
+        android:id="@+id/Label5"
+        android:layout_below="@+id/Label4"
+        android:layout_alignLeft="@+id/Label4"
+        android:layout_alignStart="@+id/Label4"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFISodium"
+        android:id="@+id/Label6"
+        android:layout_below="@+id/Label5"
+        android:layout_alignLeft="@+id/Label5"
+        android:layout_alignStart="@+id/Label5"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFIVitaminA"
+        android:id="@+id/Label7"
+        android:layout_below="@+id/Label6"
+        android:layout_alignLeft="@+id/Label6"
+        android:layout_alignStart="@+id/Label6"
+        android:layout_marginBottom="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFIVitaminC"
+        android:id="@+id/Label8"
+        android:layout_below="@+id/Label7"
+        android:layout_alignLeft="@+id/Label7"
+        android:layout_alignStart="@+id/Label7"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/AddNFIServingSize"
+        android:id="@+id/Label9"
+        android:layout_below="@+id/Label8"
+        android:layout_alignLeft="@+id/Label8"
+        android:layout_alignStart="@+id/Label8"
+        android:layout_marginBottom="17dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText1"
+        android:inputType="text"
+        android:layout_alignBottom="@+id/Label1"
+        android:layout_alignRight="@+id/saveButton"
+        android:layout_alignEnd="@+id/saveButton"
+        android:layout_toEndOf="@+id/Label4"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_below="@+id/foodKeyDescription"
+        android:layout_toRightOf="@+id/Label4" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText2"
+        android:layout_below="@+id/enterText1"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText1"
+        android:layout_alignEnd="@+id/enterText1"
+        android:inputType="text"
+        android:layout_toRightOf="@+id/Label4"
+        android:layout_toEndOf="@+id/Label4" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText3"
+        android:layout_below="@+id/enterText2"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText2"
+        android:layout_alignEnd="@+id/enterText2"
+        android:inputType="text"
+        android:layout_alignLeft="@+id/enterText2"
+        android:layout_alignStart="@+id/enterText2" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText4"
+        android:layout_below="@+id/enterText3"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText3"
+        android:layout_alignEnd="@+id/enterText3"
+        android:inputType="text"
+        android:layout_alignLeft="@+id/enterText3"
+        android:layout_alignStart="@+id/enterText3" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText5"
+        android:layout_below="@+id/enterText4"
+        android:layout_alignLeft="@+id/enterText4"
+        android:layout_alignStart="@+id/enterText4"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText4"
+        android:layout_alignEnd="@+id/enterText4"
+        android:inputType="text" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText6"
+        android:layout_below="@+id/enterText5"
+        android:layout_alignLeft="@+id/enterText5"
+        android:layout_alignStart="@+id/enterText5"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText5"
+        android:layout_alignEnd="@+id/enterText5"
+        android:inputType="text" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText7"
+        android:layout_below="@+id/enterText6"
+        android:layout_alignLeft="@+id/enterText6"
+        android:layout_alignStart="@+id/enterText6"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText6"
+        android:layout_alignEnd="@+id/enterText6"
+        android:inputType="text" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText8"
+        android:layout_alignLeft="@+id/enterText7"
+        android:layout_alignStart="@+id/enterText7"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/enterText7"
+        android:layout_alignRight="@+id/enterText7"
+        android:layout_alignEnd="@+id/enterText7"
+        android:inputType="text" />
+
+    <EditText
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterText9"
+        android:layout_below="@+id/enterText8"
+        android:layout_alignLeft="@+id/enterText8"
+        android:layout_alignStart="@+id/enterText8"
+        android:layout_marginBottom="5dp"
+        android:layout_alignRight="@+id/enterText8"
+        android:layout_alignEnd="@+id/enterText8"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/saveButton"
+        android:layout_below="@+id/Label9"
+        android:layout_toRightOf="@+id/foodKeyDescription"
+        android:layout_toEndOf="@+id/foodKeyDescription"
+        android:onClick="saveToDiary" />
+
+</RelativeLayout>
